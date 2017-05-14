@@ -1,11 +1,15 @@
 const readline = require('readline');
 
-
+var realPerson = {
+    name: '',
+    sayings: []
+};
 var rL = readline.createInterface(process.stdin, process.stdout);
-endMessage = () => process.stdout.write('What do we need to use readline for?\n');
+
 rL.question('What\'s the name of your favorite tzadik?\n', answer => {
-    console.log(answer);
-  process.exit();
+    realPerson.name = answer;
+    rL.setPrompt(`What would ${realPerson.name} say?\n`);
+    rL.prompt();
+ 
 });
 
-process.on('exit', endMessage);
