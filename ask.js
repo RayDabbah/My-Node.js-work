@@ -6,8 +6,8 @@ var questions = [
 var answers = [];
 
 function ask(i) {
-	process.stdout.write(`\n\n\n\n ${questions[i]}`);
-	process.stdout.write(`  >  `);
+	process.stdout.write(`\n\n ${questions[i]}`);
+	process.stdout.write(` \n >  `);
 }
 
 process.stdin.on('data', function(data) {
@@ -18,7 +18,7 @@ if (answers.length < questions.length) {
 	process.exit();
 }
 });
-endMessage = () => process.stdout.write(`\n\n\n\n\ Go eat ${answers[1]} ${answers[0]}, you can do ${answers[2]} later! \n\n Have fun!!! \n\n`);
+endMessage = () => process.stdout.write(`\n\n Go eat ${answers[1]} ${answers[0]}, you can do ${answers[2]} later! \n\n Have fun!!! \n\n`);
 
 
 process.on('exit', endMessage);
