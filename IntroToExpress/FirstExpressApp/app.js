@@ -3,11 +3,21 @@ var app = express();
 
 // "/" => "Hi There"
 app.get("/", function(request, response) {
-response.send('HI THERE');    
+response.send('HI THERE');
+console.log(request);
+console.log('With params: ' + request.params);
 });
 app.get('/goodbye', function(request, response) {
     console.log("SOMEONE MADE A REQUEST TO Goodbye.");
     response.send('Have a great day!!!!');
+});
+app.get('/g/:name/food/:favFood/game/:favGame', function(request, response) {
+    console.log(request.params);
+    var nameItem = request.params.name.toUpperCase();
+    var favFood = request.params.favFood;
+    var favGame = request.params.favGame;
+    response.send(`How are you ${nameItem}? \n So nice to see you here!!!
+We would like to offer you some of your favorite ${favFood} while you play ${favGame}!!!`);
 });
 app.get('/doggies', function(request, response) {
     console.log("SOMEONE MADE A REQUEST TO /DOGGIES!!!");
