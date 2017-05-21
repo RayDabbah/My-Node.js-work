@@ -19,6 +19,7 @@ app.get('/g/:name/food/:favFood/game/:favGame', function(request, response) {
     response.send(`How are you ${nameItem}? \n So nice to see you here!!!
 We would like to offer you some of your favorite ${favFood} while you play ${favGame}!!!`);
 });
+//for git
 app.get('/doggies', function(request, response) {
     console.log("SOMEONE MADE A REQUEST TO /DOGGIES!!!");
     response.send('Dogs say Ruff Rufff!!!!!!!!!!!!!!!!!!!!!');
