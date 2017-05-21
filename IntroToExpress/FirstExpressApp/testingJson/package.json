@@ -1,0 +1,16 @@
+{
+  "name": "testinjson",
+  "version": "1.0.0",
+  "description": "package demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RD",
+  "license": "ISC",
+  "dependencies": {
+    "cat-me": "^1.0.3",
+    "express": "^4.15.3",
+    "faker": "^4.1.0"
+  }
+}
