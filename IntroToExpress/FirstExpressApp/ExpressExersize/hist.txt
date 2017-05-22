@@ -1,0 +1,336 @@
+    1  sudo dpkg --install chrome.deb
+    2  sudo dpkg --install google-chrome-stable-current-amd64.deb
+    3  exit
+    4  sudo dpkg --install google-chrome-stable-current-amd64.deb
+    5  sudo apt-get install -f
+    6  sudo dpkg --install google-chrome-stable-current-amd64.deb
+    7  sudo apt install gdebi
+    8  exit
+    9  sudo dpkg --install google-chrome-stable-current-amd64.deb
+   10  sudo dpkg --install chrome.deb
+   11  ls
+   12  cd Downloads/
+   13  sudo dpkg --install chrome.deb
+   14  dpkg --list
+   15  sudo apt-get --purge remove  google-chrome- 
+   16  sudo apt-get --purge remove  google-chrome
+   17  sudo dpkg --configure -a
+   18  cd ~
+   19  sudo apt-get --purge remove  google-chrome
+   20  sudo apt-get --purge remove ii  google-chrome- 58.0.3029.11 amd64
+   21  sudo apt-get --purge remove ii  google-chrome-
+   22  sudo apt-get --purge remove google-chrome-
+   23  sudo ./install.sh
+   24  sudo ./uninstall.sh
+   25  apt transaction returned result exit-failed
+   26  clear
+   27  whoami
+   28  ls -la
+   29  ./install.sh
+   30  sudo chmod 777 [~
+   31  ls -la
+   32  sudo chmod 777 koinstall.log 
+   33  ls -la
+   34  cd ..
+   35  ls -la
+   36  sudo chmod 777 Komodo-Edit-10.2.2-17703-linux-x86_64
+   37  ls -la
+   38  sudo apt-get update
+   39  sudo apt-get install git
+   40  sudo apt-get purge komodo-edit komodo-edit-globalmenu
+   41  ls
+   42  rmdir Komodo-Edit-10/ -R
+   43  rmdir -R Komodo-Edit-10/
+   44  rmdir -r Komodo-Edit-10/
+   45  rmdir -rf Komodo-Edit-10/
+   46  rmdir Komodo-Edit-10/ -r
+   47  rmdir --help
+   48  rm Komodo-Edit-10/ -R
+   49  sudo rm Komodo-Edit-10/ -R
+   50  ls
+   51  exit
+   52  sudo systemctl hibernate
+   53  ./install.sh
+   54  cd ~
+   55  curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+   56  node -v
+   57  sudo apt-get install -y nodejs
+   58  cd '/media/raydabbah/Windows/Users/Rachamim Dabbah/Documents/Programming/My-Node.js-work' 
+   59  node install cat-me
+   60  node -v
+   61  npm -v
+   62  npm install cat-me
+   63  pushd ~
+   64  popd
+   65  pushd ~/Documents/
+   66  mkdir Node/
+   67  cd Node/
+   68  npm install cat-me
+   69  npm install cat-me -g
+   70  npm install -g cat-me 
+   71  sudo npm install cat-me 
+   72  sudo npm install cat-me -g 
+   73  ls
+   74  cd node_modules/
+   75  ls
+   76  vim app.js
+   77  sudo apt install vim
+   78  vim app.js
+   79  node app.js 
+   80  vim app.js
+   81  node app.js 
+   82  mv app.js ../../
+   83  cd ../../
+   84  ls
+   85  node app.js 
+   86  popd
+   87  ls
+   88  pushd ~/Documents/Node/
+   89  ls
+   90  ../
+   91  cd ..
+   92  mv app.js /media/raydabbah/Windows/Users/Rachamim Dabbah/Documents/Programming/My-Node.js-work
+   93  mv app.js ~/media/raydabbah/Windows/Users/Rachamim Dabbah/Documents/Programming/My-Node.js-work
+   94  popd
+   95  node app.js 
+   96  node app.js 4
+   97  ls
+   98  pushd ~/Documents/Node/
+   99  sudo npm install knock-knock-jokes
+  100  sudo npm install knock-knock-jokes -g
+  101  ls -la
+  102  pushd ~
+  103  ls -la
+  104  cat .bashrc 
+  105  cat .config/
+  106  ls .config/
+  107  cat .config/user-dirs.dirs 
+  108  cat .config/user-dirs.locale 
+  109  popd
+  110  cd ..
+  111  git clone https://github.com/RayDabbah/ES6.git
+  112  git clone https://github.com/RayDabbah/My-Node.js-work.git
+  113  git clone https://github.com/RayDabbah/My-web-pages-folder.git
+  114  cd My-Node.js-work/-
+  115  ls
+  116  cd My-Node.js-work/
+  117  ls
+  118  cd ../..
+  119  cd My-Node.js-work/
+  120  cd My-Node.js-work/$
+  121  cd '/home/raydabbah/Documents/My-Node.js-work' 
+  122  git status
+  123  cd ../ES6/
+  124  git status
+  125  cd ..
+  126  node app.js 
+  127  cd ..
+  128  node app.js 
+  129  clear
+  130  pwd
+  131  popd
+  132  cd '/home/raydabbah/Documents/My-Node.js-work' 
+  133  git fetch 
+  134  git status
+  135  git pull
+  136  pushd ~
+  137  vim .bashrc 
+  138  exit
+  139  popd
+  140  cd Documents/My-Node.js-work/
+  141  git status
+  142  pushd ~
+  143  vim .bashrc 
+  144  popd
+  145  touch IntroToExpress/FirstExpressApp/app.js -p
+  146  touch IntroToExpress/FirstExpressApp/app.js
+  147  touch IntroToExpress/FirstExpressApp/app.js -P
+  148  touch IntroToExpress/FirstExpressApp/app.js -r
+  149  touch IntroToExpress/FirstExpressApp/
+  150  help touch
+  151  touch --help
+  152  touch -p IntroToExpress/FirstExpressApp/app.js
+  153  mkdir --help
+  154  mkdir -p IntroToExpress/FirstExpressApp/app.js
+  155  cd IntroToExpress/FirstExpressApp/
+  156  ls
+  157  vim app.js/
+  158  ls
+  159  rmdir app.js/
+  160  touch app.js
+  161  vim app.js 
+  162  npm install express
+  163  npm install express -g
+  164  mkdir desdf/asdf/sd;fj
+  165  mkdir desdf/asdf/sd
+  166  npm -g express
+  167  npm install -g express
+  168  sudo npm install express
+  169  sudo npm  install express -g
+  170  ls
+  171  sudo npm  install express -g
+  172  ls
+  173  cd node_modules/
+  174  ls
+  175  sudo npm install http-server
+  176  ls
+  177  cd ..
+  178  http-server
+  179  mv node_modules/http-server/ ../
+  180  ls
+  181  ls node_modules/
+  182  http-server
+  183  sudo npm install http-server
+  184  ls
+  185  http-server
+  186  http-server -p 3000
+  187  mkdir shmrerel/yankel moshe rachamim tra
+  188  ls
+  189  rm moshe/ node_modules/ rachamim/ tra/
+  190  rm -R  moshe/ node_modules/ rachamim/ tra/
+  191  node app
+  192  sudo npm install http-server
+  193  ls
+  194  rmdir rachamim/ tra/
+  195  ls
+  196  ls node_modules/
+  197  http-server
+  198  http-server -p 3000
+  199  rm -r node_modules/
+  200  ls
+  201  rm -R node_modules/
+  202  rm -Rf node_modules/
+  203  sudo rm -Rf node_modules/
+  204  ls
+  205  sudo npm install http-server -g
+  206  http-server -p 3000
+  207  http-server
+  208  exit
+  209  node app.js 
+  210  mkdir testingJson
+  211  cd testingJson/
+  212  nom init
+  213  npm init
+  214  sudo install express
+  215  sudo npm install express --save
+  216  cat package.json 
+  217  npm --list
+  218  npm install
+  219  npm --help
+  220  sudo npm-install cat-me --save
+  221  sudo npm install cat-me --save
+  222  cat package.json 
+  223  sudo npm install faker --save
+  224  cat package.json 
+  225  cd ..
+  226  http-server 
+  227  http-server -p 3000
+  228  cd ~
+  229  http-server -p 3000
+  230  cd Downloads/
+  231  http-server -p 3000
+  232  cd ../Documents/My-Node.js-work/
+  233  ls
+  234  cd IntroToExpress/FirstExpressApp/
+  235  http-server -p 3000
+  236  node app.js 
+  237  cd Documents/My-Node.js-work/
+  238  ls
+  239  cd IntroToExpress/
+  240  ls
+  241  cd FirstExpressApp/
+  242  ls
+  243  git status
+  244  node app.js 
+  245  cd ../
+  246  ls
+  247  mv http-server/ FirstExpressApp/
+  248  ls
+  249  cd FirstExpressApp/
+  250  ls
+  251  http-server -3000
+  252  http-server -p 3000
+  253  exit
+  254  http-server 
+  255  node app.js 
+  256  exit
+  257  node app.js 
+  258  ls
+  259  sudo rm -R http-server/
+  260  ls
+  261  ls ..
+  262  sudo npm install express
+  263  node app.js 
+  264  sudo npm install http-server
+  265  ls
+  266  ls node_modules/
+  267  node app.js 
+  268  cd Documents/My-Node.js-work/IntroToExpress/FirstExpressApp/
+  269  ls
+  270  http-server
+  271  http-server -p 3000
+  272  cd ~/Documents/My-Node.js-work/IntroToExpress/FirstExpressApp
+  273  http-server 
+  274  cd Documents/ES6/
+  275  git status
+  276  rm shopping.txt 
+  277  ls
+  278  git add .
+  279  git commit -m "started with advanced reduce"
+  280  git config --global user.email dabbahray@yahoo.com
+  281  git config --global user.name raydabbah
+  282  git commit -m "started with advanced reduce"
+  283  git push origin master
+  284  cd ../
+  285  cd My-Node.js-work/
+  286  git status
+  287  git add .
+  288  git commit -m "Fcommit -m "first express item"
+  289  git commit -m "first express item"
+  290  git push origin master 
+  291  sudo systemctl hibernate
+  292  cd Documents/ES6
+  293  ls
+  294  cat list.txt 
+  295  vim list.txt 
+  296  rm list.txt 
+  297  ls
+  298  cd Documents/ES6/
+  299  node shoppingObject.js 
+  300  cd Documents/ES6/
+  301  node shoppingObject.js 
+  302  cd Documents/My-Node.js-work/
+  303  cd IntroToExpress/FirstExpressApp/
+  304  node app.js 
+  305  git status
+  306  git commit -am "Wrote first dynamic Express app."
+  307  git push origin master 
+  308  git push -u origin master 
+  309  git status 
+  310  git commit -am "Just for a test"
+  311  git push origin master 
+  312  git status 
+  313  git config --global 
+  314  git config --global --help
+  315  git config --get
+  316  git config --global --get
+  317  git config --global --get-all
+  318  git config --get-all
+  319  git config -l
+  320  git pull
+  321  mkdir ExpressExersize
+  322  cd ExpressExersize/
+  323  touch app.js
+  324  npm install express
+  325  sudo npm install express
+  326  node app.js 
+  327  cd Documents/My-Node.js-work/IntroToExpress/FirstExpressApp/
+  328  ls
+  329  cd ExpressExersize/
+  330  ls
+  331  cat app.js 
+  332  npm init
+  333  sudo npm install express
+  334  ls
+  335  npm init
+  336  history > hist.txt
