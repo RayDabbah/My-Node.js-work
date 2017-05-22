@@ -4,20 +4,26 @@ app.get("/", function(req, res) {
     res.send("Hello there!! Welcome to my glorious app!!");
 });
 app.get("/speak/:animal", function(req, res) {
-    var animal = req.params.animal;
-      var animalSound = ''; 
+    var animal = req.params.animal.toLowerCase();
+    var animalSound = {
+        dog: 'Ruff!',
+        cat: 'MEOW!',
+        fish: '...',
+        sheep: 'Baaaaa!'
+    };
+     /* var animalSound = ''; 
         if (animal === 'pig') {
         animalSound = 'OINK';
     }   if (animal === 'dog') {
        animalSound =  'Ruff ruff';
     }   if (animal === 'horse') {
         animalSound = 'Neigh';
-    } else if (animalSound === '') {
+    }*/ if (!animalSound[animal]) {
         res.send(`Sorry; we don't like ${animal.toUpperCase()}S! Please choose one that we do!!`);
     }
     
-        if (animalSound !== '') {
-    res.send(`The ${animal} says ${animalSound}!`);    
+       else if (animalSound !== '') {
+    res.send(`The ${animal} says ${animalSound[animal]}!`);    
     }
 });
 app.get("/repeat/:hello/:numbers", function(req, res) {
@@ -28,7 +34,7 @@ app.get("/repeat/:hello/:numbers", function(req, res) {
     res.send("You have reached an incorrect page. :-(");
  }
  for (i = 0; i < numbers; i++ ) {
-    hi += hello + ' ';
+    hi += hello + '\n';
  }
   console.log(req.params);
    res.send(hi);
