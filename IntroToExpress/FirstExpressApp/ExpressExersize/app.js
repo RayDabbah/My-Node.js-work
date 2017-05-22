@@ -11,14 +11,7 @@ app.get("/speak/:animal", function(req, res) {
         fish: '...',
         sheep: 'Baaaaa!'
     };
-     /* var animalSound = ''; 
-        if (animal === 'pig') {
-        animalSound = 'OINK';
-    }   if (animal === 'dog') {
-       animalSound =  'Ruff ruff';
-    }   if (animal === 'horse') {
-        animalSound = 'Neigh';
-    }*/ if (!animalSound[animal]) {
+    if (!animalSound[animal]) {
         res.send(`Sorry; we don't like ${animal.toUpperCase()}S! Please choose one that we do!!`);
     }
     
