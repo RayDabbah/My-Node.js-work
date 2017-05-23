@@ -1,0 +1,14 @@
+<h1>Welcome to the Food Posting page!</h1>
+
+
+
+<% posts.forEach(function(post) { %>
+<% var isV= '';%>
+ <% if ((post.title).charAt((post.title).length-1) === 's') {%>
+   <%   isV = ' are very ';} else if ((post.title).charAt((post.title).length-1) !== 's'){%>
+   <%   isV = ' is very ';%>
+  <%    }%>
+
+  <li><%=post.title + isV + post.taste%></li>   
+
+ <%   })%>
