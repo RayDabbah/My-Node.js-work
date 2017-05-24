@@ -1,13 +1,13 @@
 var express = require('express');
 app = express();
 app.use(express.static("public"));
-
+app.set("view engine", "ejs");
 app.get("/", function(req, res) {
-    res.render("home.ejs");
+    res.render("home");
     });
 app.get("/eatapples/:thing", function(req, res) {
     var thing = req.params.thing;
-    res.render("eatApples.ejs", {thingVar: thing.toLowerCase()});
+    res.render("eatApples", {thingVar: thing.toLowerCase()});
 });
 app.get("/posts", function(req, res) {
     var posts = [
@@ -17,7 +17,7 @@ app.get("/posts", function(req, res) {
                   {title: `Rolls` , taste: `Not Bad.`},
                   {title: `Whole wheat bread`, taste: `Michelle Obama...`}                   
                  ];
-    res.render("foodTaste.ejs", {posts: posts});
+    res.render("foodTaste", {posts: posts});
 });
 app.get("*", function(req, res) {
    
