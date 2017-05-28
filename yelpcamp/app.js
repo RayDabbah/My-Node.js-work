@@ -1,6 +1,6 @@
 var express = require("express");
 var app = express();
-
+app.use(express.static("public"));
 app.set("view engine", "ejs");
 var campgrounds = [
     {name: 'Roaring Rivers' , image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCbUWZXpp1e0TpHykfTuBNPJW6xKbNhzF4DO14Kk5sUWkKtQQPAA"},

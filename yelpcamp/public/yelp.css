@@ -1,0 +1,22 @@
+h1 {
+    color: blue;
+    font-variant: small-caps;
+    font-size: 4em;
+    text-align: center;
+}
+
+*{
+    background-color: #9EF79E;
+}
+div{
+    text-align: center;
+   justify-content: center; 
+    border: black 1px solid;
+}
+h2{
+    text-align: center;
+}
+img{
+    height: 350px;
+    width: 550px;
+}
