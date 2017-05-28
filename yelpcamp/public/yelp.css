@@ -1,22 +1,52 @@
 h1 {
     color: blue;
-    font-variant: small-caps;
-    font-size: 4em;
+    /*font-variant: small-caps;*/
+    text-shadow: 4px 2px #aba;
+    font-size: 5em;
     text-align: center;
+    text-transform: capitalize;
 }
 
 *{
-    background-color: #9EF79E;
+   /* background-color: #CCFCCC;*/
+}
+.grounds{
+    margin: 0 auto;
+    opacity: 0.2;
+    position: absolute;
+    width: 1000px;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
 div{
+     background-color: transparent;
+    margin: 110px;
+    width: 1000px;
+    height: 750px;
     text-align: center;
-   justify-content: center; 
+   margin-left: auto;
+   margin-right: auto;
     border: black 1px solid;
+    
 }
 h2{
+     text-transform: capitalize;
+    text-shadow: 3px 2px #1f1;
+    background-color: transparent;
+    font-size: 3em;
     text-align: center;
 }
 img{
+    opacity: 1.0;
+    border: 2px solid black;
     height: 350px;
-    width: 550px;
+    width: 600px;
+    margin-bottom: 100px;
+    margin-top: 10%;
+}
+footer{
+    text-align: center;
+    font-size: 1.5em;
 }

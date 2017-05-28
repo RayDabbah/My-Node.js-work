@@ -2,11 +2,27 @@
 <h1>These are our lovely campgrounds!!</h1>
 
 <%campgrounds.forEach(c => { %>
-<div>
+<div class="content">
+<div class="grounds">
+</div>
 <h2><%= c.name %></h2>
 <img src="<%=c.image%>">
 </div>
 <% }) %>
 
+<script>
+var picture =document.getElementsByClassName("grounds");
+for (var i = 0; i < picture.length; i++) {
+     var images = document.getElementsByClassName("content")[i].querySelector('img');
+    var imageName = images.getAttribute('src');
+    picture[i].style.backgroundImage = `url(${imageName})`;
+}
+/*
 
+picture.forEach(div => {
+    var images = div.getElementsByTagName('img');
+    var imageName = images.getAttribute('src');
+    div.style.backgroundImage = `url(${imageName})`;
+    });*/
+</script>
 <% include partials/footer %>
