@@ -16,15 +16,16 @@ var campgrounds = [
 app.get("/", (req, res) => {
     res.render("landing");
 });
+app.get("/campgrounds", (req, res) => res.render("campgrounds", {campgrounds: campgrounds}));
 app.post("/campgrounds", (req, res) => {
     var name = req.body.name;
     var image = req.body.image;
     var newCampGround = {name: name, image: image};
     campgrounds.push(newCampGround);
     res.redirect("/campgrounds");
-    console.log(req.body);
+    
 });
 app.get("/campgrounds/new", (req, res) => res.render("newCampground"));
-app.get("/campgrounds", (req, res) => res.render("campgrounds", {campgrounds: campgrounds}));
+
 
 app.listen(3000, "localhost", ()=> console.log('The server has started.'));
