@@ -22,8 +22,9 @@ app.post("/campgrounds", (req, res) => {
     var newCampGround = {name: name, image: image};
     campgrounds.push(newCampGround);
     res.redirect("/campgrounds");
+    console.log(req.body);
 });
-app.get("/campgrounds/new", (req, res) => res.render(newCampground));
+app.get("/campgrounds/new", (req, res) => res.render("newCampground"));
 app.get("/campgrounds", (req, res) => res.render("campgrounds", {campgrounds: campgrounds}));
 
 app.listen(3000, "localhost", ()=> console.log('The server has started.'));

@@ -50,3 +50,8 @@ footer{
     text-align: center;
     font-size: 1.5em;
 }
+p, form{
+    text-align: center;
+    justify-content: center;
+    font-size: 2.5em;
+}
