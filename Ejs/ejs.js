@@ -40,7 +40,7 @@ app.get("/posts", function(req, res) {
 app.get("*", function(req, res) {
 
 	res.send(`You have reached a non-existant page.
-         Sorry; Hope yu have a better day tomorrow.`);
+         Sorry; Hope you have a better day tomorrow.`);
 });
 
 app.listen(3000, 'localhost', () => console.log('Server has started.'));
